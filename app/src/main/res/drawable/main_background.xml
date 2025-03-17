@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Базовый градиент -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="100%p"
+                android:startColor="#1B5E20"
+                android:centerColor="#2E7D32"
+                android:endColor="#1B5E20" />
+        </shape>
+    </item>
+    
+    <!-- Психоделические разводы -->
+    <item>
+        <shape>
+            <gradient
+                android:type="sweep"
+                android:centerX="0.3"
+                android:centerY="0.3"
+                android:startColor="#33FF4081"
+                android:centerColor="#33FFC107"
+                android:endColor="#33FF4081" />
+        </shape>
+    </item>
+    
+    <item>
+        <shape>
+            <gradient
+                android:type="sweep"
+                android:centerX="0.7"
+                android:centerY="0.7"
+                android:startColor="#33E91E63"
+                android:centerColor="#33FF9800"
+                android:endColor="#33E91E63" />
+        </shape>
+    </item>
+    
+    <item>
+        <shape>
+            <gradient
+                android:type="sweep"
+                android:centerX="0.5"
+                android:centerY="0.5"
+                android:startColor="#3300BCD4"
+                android:centerColor="#33FF5722"
+                android:endColor="#3300BCD4" />
+        </shape>
+    </item>
+    
+    <!-- Верхний слой с эффектом свечения -->
+    <item>
+        <shape>
+            <gradient
+                android:type="linear"
+                android:angle="45"
+                android:startColor="#001B5E20"
+                android:centerColor="#3381C784"
+                android:endColor="#001B5E20" />
+        </shape>
+    </item>
+</layer-list> 

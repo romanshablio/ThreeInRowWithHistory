@@ -1,114 +1,115 @@
-# Crystal Match - игра "Три в ряд"
+# Crystal Match - Match-3 Game
 
-## Установка и запуск
+Crystal Match is an Android match-3 game built with Kotlin.
 
-### 1. Склонируйте репозиторий:
-```sh
-git clone <ваш-репозиторий>
-cd ThreeInRowWithHistory
-```
+The player combines three or more matching crystals, scores points, unlocks levels, and progresses through a city map. The project was created as an Android game prototype with animated transitions, saved progress, and several planned expansion points.
 
-### 2. Откройте проект в Android Studio:
-- Запустите Android Studio
-- Выберите "Open an existing project"
-- Найдите папку с проектом
+## Installation and Running
 
-### 3. Запустите игру:
-- Подключите Android-устройство или запустите эмулятор
-- Нажмите кнопку "Run" (зеленый треугольник) в Android Studio
-- Выберите устройство для запуска
+1. Clone the repository.
 
-## Особенности игры
+   ```bash
+   git clone <repository-url>
+   cd ThreeInRowWithHistory
+   ```
 
-### 🎮 Основной геймплей:
-- Классическая механика "Три в ряд"
-- Психоделические визуальные эффекты
-- Система уровней с возрастающей сложностью
-- Таймер для каждого уровня
+2. Open the project in Android Studio.
 
-### 🌟 Особенности:
-- Красивые анимации переходов
-- Система прогресса с сохранением достижений
-- Карта города для навигации
-- Инвентарь с коллекцией кристаллов
+   - Start Android Studio.
+   - Select "Open an existing project".
+   - Choose the project folder.
 
-### 🎯 Цель игры:
-- Собирайте комбинации из трех и более одинаковых кристаллов
-- Набирайте очки и проходите уровни
-- Открывайте новые локации на карте города
-- Собирайте уникальные кристаллы в инвентарь
+3. Run the game.
 
-## Технические детали
+   - Connect an Android device or start an emulator.
+   - Press Run in Android Studio.
+   - Select a target device.
 
-### Используемые технологии:
-- Kotlin
-- Android SDK
-- Material Design
-- SharedPreferences для сохранения прогресса
+## Game Features
 
-### Структура проекта:
-```
+### Core Gameplay
+
+- Classic match-3 mechanics.
+- Psychedelic visual effects.
+- Level system with increasing difficulty.
+- Timer for each level.
+
+### Additional Features
+
+- Animated transitions.
+- Progress saving.
+- City map navigation.
+- Inventory with a crystal collection.
+
+### Goal
+
+- Match three or more identical crystals.
+- Score points and complete levels.
+- Unlock new locations on the city map.
+- Collect unique crystals in the inventory.
+
+## Technical Details
+
+### Technologies
+
+- Kotlin.
+- Android SDK.
+- Material Design.
+- SharedPreferences for progress saving.
+
+### Project Structure
+
+```text
 app/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/example/threeinrowwithhistory/
-│   │   │       ├── MainActivity.kt
-│   │   │       ├── GameActivity.kt
-│   │   │       ├── LevelMapActivity.kt
-│   │   │       └── CityMapActivity.kt
-│   │   └── res/
-│   │       ├── layout/
-│   │       ├── drawable/
-│   │       └── anim/
+|-- src/
+|   |-- main/
+|   |   |-- java/
+|   |   |   +-- com/example/threeinrowwithhistory/
+|   |   |       |-- MainActivity.kt
+|   |   |       |-- GameActivity.kt
+|   |   |       |-- LevelMapActivity.kt
+|   |   |       +-- CityMapActivity.kt
+|   |   +-- res/
+|   |       |-- layout/
+|   |       |-- drawable/
+|   |       +-- anim/
 ```
 
-## Как это работает?
+## How It Works
 
-### 1️⃣ Главное меню
-- Запускаем игру
-- Выбираем режим игры:
-  - "Ферма кристаллов" - основной режим
-  - "Инвентарь" - коллекция кристаллов (в разработке)
-  - "Карта города" - навигация по локациям (в разработке)
+1. Main menu.
+   - Start the game.
+   - Choose a mode:
+     - Crystal Farm - main mode.
+     - Inventory - crystal collection, in development.
+     - City Map - location navigation, in development.
 
-### 2️⃣ Игровой процесс
-- Выбираем уровень на карте
-- Решаем головоломку "Три в ряд"
-- Собираем комбинации кристаллов
-- Набираем очки и открываем новые уровни
+2. Gameplay.
+   - Select a level on the map.
+   - Solve the match-3 puzzle.
+   - Match crystals.
+   - Score points and unlock new levels.
 
-### 3️⃣ Система прогресса
-- Сохранение достижений
-- Открытие новых локаций
-- Коллекционирование кристаллов
-- Улучшение навыков
+3. Progress system.
+   - Save achievements.
+   - Unlock new locations.
+   - Collect crystals.
+   - Improve player progress.
 
-## Зачем всё это сделано?
+## Purpose
 
-💡 Главная идея — создать увлекательную игру, которая:
-- Развивает логическое мышление
-- Приносит удовольствие от прохождения уровней
-- Имеет красивый визуальный стиль
-- Сохраняет прогресс игрока
+The main idea is to create an entertaining game that trains logical thinking, has a colorful visual style, and saves player progress.
 
-## Требования к системе
+## System Requirements
 
-- Android 6.0 (API 23) или выше
-- Минимум 2 ГБ оперативной памяти
-- 100 МБ свободного места на диске
+- Android 6.0 or newer.
+- At least 2 GB RAM.
+- 100 MB of free storage.
 
-## Лицензия
+## License
 
-MIT License - свободное использование и модификация
+MIT License. Free use and modification.
 
-## Авторы
+## Author
 
-- [ShablySoft/ Шаблий Роман/ https://shablysoft.ru] - разработчик
-
-## Поддержка
-
-Если у вас возникли вопросы или проблемы:
-1. Создайте Issue в репозитории
-2. Опишите проблему подробно
-3. Приложите скриншоты, если необходимо
+Roman Shably, ShablySoft.
